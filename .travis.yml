@@ -1,0 +1,21 @@
+language: php
+before_script:
+- phpenv local 5.4
+- composer install --dev --no-interaction
+- phpenv local --unset
+- cd test
+script:
+- ../vendor/bin/phpunit --coverage-clover clover.xml
+php:
+- 5.3
+- 5.4
+- 5.5
+notifications:
+  hipchat:
+    rooms:
+      secure: ehnzqeiOsHiR9cne5YNgMMmQT+e5WOb3gDuVOqee91I7JQvrKYxGDGMR9xQs5YtK2Xcr3KmvcyzX0kdeusuDMw+ro0LK54Wup7vKYrhhdx/sdINw9ETc8OzNa/0FfL74oDXZQNOvAIFUdiE1gtbj+Fzb3UmuAP5iBxWcdlw8kgQ=
+    template:
+    - '<a href="https://travis-ci.org/%{repository}/builds/%{build_id}">%{repository}
+      Build %{build_number}</a> on branch <i>%{branch}</i> by %{author}: <strong>%{message}</strong>
+      <a href="https://github.com/sendgrid/docs/commits/%{commit}">View on GitHub</a>'
+    format: html
