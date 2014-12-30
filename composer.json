@@ -1,6 +1,7 @@
 {
     "name": "maildocker/track-php",
     "description": "Registrar eventos usando PHP.",
+    "version": "1.0",
     "authors": [ 
         {
             "name": "Aurélio Saraiva",
@@ -8,6 +9,17 @@
         }
     ],
     "require": {
-         "php": ">=5.3.17"
+         "php": ">=5.3.17",
+         "mashape/unirest-php": "1.2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "replace": {
+        "maildocker/track-php": "*"
+    },
+    "type": "library",
+    "autoload": {
+        "psr-0": {"EventDocker": "lib/"}
     }
  }
