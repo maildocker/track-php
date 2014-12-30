@@ -1,7 +1,7 @@
 {
     "name": "maildocker/track-php",
     "description": "Registrar eventos usando PHP.",
-    "version": "1.0",
+    "version": "0.1",
     "license": "MIT",
     "authors": [ 
         {
