@@ -1,0 +1,13 @@
+{
+    "name": "maildocker/track-php",
+    "description": "Registrar eventos usando PHP.",
+    "authors": [ 
+        {
+            "name": "Aurélio Saraiva",
+            "email": "aureliosaraiva@gmail.com"
+        }
+    ],
+    "require": {
+         "php": ">=5.3.17"
+    }
+ }
