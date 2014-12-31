@@ -95,7 +95,7 @@ class EventDockerTest_EventDocker extends PHPUnit_Framework_TestCase {
 
         $result = EventDocker::init();   
 
-        $this->assertEquals(200,$result->code);
+        $this->assertEquals(401,$result->code);
     }
 
 }
