@@ -3,7 +3,7 @@
 
 Important: This library requires PHP 5.3 or higher.
 
-[![BuildStatus](https://travis-ci.org/maildocker/track-php.png?branch=master)](https://travis-ci.org/maildocker/track-php)
+[![BuildStatus](https://api.travis-ci.org/maildocker/track-php.svg?branch=master)](https://travis-ci.org/maildocker/track-php)
 [![Latest Stable Version](https://poser.pugx.org/maildocker/track-php/version.png)](https://packagist.org/packages/maildocker/track-php)
 
 
